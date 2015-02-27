@@ -1,5 +1,5 @@
 #! /usr/bin/env python
-VERSION = "1.0"
+VERSION = "1.0.1"
 
 import sys
 import json
@@ -43,6 +43,8 @@ def to_json(o, level=0):
             ret += '"' + str(k) + '":' + space
             ret += to_json(v, level+1)
         ret += newline + space * INDENT * level + "}"
+    elif o is None:
+        ret += "null"
     else:
         #raise TypeError("Unknown type '%s' for json serialization" % str(type(o)))
         ret += str(o)

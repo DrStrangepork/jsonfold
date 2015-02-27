@@ -1,0 +1,34 @@
+{
+  "results": {
+    "groups": {
+      "alpha": {
+        "items": {
+          "apple": {
+            "attributes": {
+              "class": "fruit"
+            }
+          },
+          "pear": {
+            "attributes": {
+              "class": "fruit"
+            }
+          },
+          "dog": {
+            "attributes": {
+              "class": null
+            }
+          }
+        }
+      },
+      "beta": {
+        "items": {
+          "banana": {
+            "attributes": {
+              "class": "fruit"
+            }
+          }
+        }
+      }
+    }
+  }
+}
