@@ -92,7 +92,8 @@ Options:
 ```
 
 ## TODO
-I'd like to rely heavier on the [json module](https://docs.python.org/2.6/library/json.html) rather than use my own print method.
+1. I'd like to rely heavier on the [json module](https://docs.python.org/2.6/library/json.html) rather than use my own print method.
+2. I'd like to add an option to print in sorted/alphabetical order.
 
 ## License
 GNU GPL v3<br>
